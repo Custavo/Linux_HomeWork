@@ -21,5 +21,6 @@ int main(int argc, char *argv[]){
 	if (val & O_SYNC)		printf(", synchronous writes");
 #endif
 	putchar('\n');
+
 	exit (0);
 }
